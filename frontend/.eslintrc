@@ -1,0 +1,15 @@
+{
+  "extends": [
+    // "next/babel",
+    "next",
+    "prettier",
+    "next/core-web-vitals"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+
+  }
+}
