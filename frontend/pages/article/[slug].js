@@ -46,7 +46,7 @@ const Article = ({ article, categories }) => {
                 By {article.attributes.author.name}
               </p>
               <p className="uk-text-meta uk-margin-remove-top">
-                {dayjs(article.attributes.published_at).format("MMM Do YYYY")}
+                {dayjs(article.attributes.published_at).format("MMM D YYYY")}
               </p>
             </div>
           </div>
